@@ -56,4 +56,16 @@
 			</plugin>
 		</plugins>
 	</build>
+	<distributionManagement>
+        <repository>
+            <id>Releases</id>
+            <name>Internal Releases</name>
+            <url>http://192.168.109.133:8081/repository/HSBC_Releases/</url>
+       </repository>
+        <snapshotRepository>
+            <id>Snapshot</id>
+            <name>Internal Snapshot Releases</name>
+            <url>http://192.168.109.133:8081/repository/HSBC_Snapshot/</url>
+        </snapshotRepository>
+    </distributionManagement>
 </project>
